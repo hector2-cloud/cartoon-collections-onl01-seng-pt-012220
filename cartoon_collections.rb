@@ -23,14 +23,12 @@ call_screms.any? do |word|
  end
 end
 
-def find_the_cheese(cheddar_cheese)
+def find_the_cheese(cheddar_cheese,no_cheese)
   cheddar_cheese.find do |cheese|
-    cheese == "cheddar" || cheese == "banana" || cheese == "sock"
-end
-end 
-def find_the_cheese(no_cheese)
-  no_cheese.include?("cheddar")
+    cheese == "cheddar" || cheese == "banana" || cheese == "sock" 
+    no_cheese.include?("cheddar")
   if false 
     return nil 
   end
 end
+end 
