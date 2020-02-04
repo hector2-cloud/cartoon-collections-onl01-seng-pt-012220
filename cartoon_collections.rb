@@ -25,7 +25,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheddar_cheese.find do |cheese|
-    cheese == "cheddar" || cheese == "banana" || cheese == "sock" 
+    cheese == "cheddar" || snack == "banana" || cloths == "sock" 
    
 end
 end 
